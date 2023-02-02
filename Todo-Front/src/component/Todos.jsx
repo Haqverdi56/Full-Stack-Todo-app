@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Todo() {
+function Todos() {
   return (
     <div>
-      <h1>Todo</h1>
+      <h1>Todos</h1>
     </div>
   )
 }
 
-export default Todo
+export default Todos
