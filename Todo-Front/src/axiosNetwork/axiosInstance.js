@@ -15,11 +15,9 @@ export const axiosNetwork = {
         return responseData
     },
     add: async(url, data) => {
-        console.log(data);
         await axiosIntance.post(`${url}`, data)
     },
     update: async(url, id, data) => {
-        console.log(id, data)
         await axiosIntance.put(`${url}/${id}`, data)
     },
     delete: async(url,id) => {

@@ -24,7 +24,6 @@ function Todos() {
     axiosNetwork.delete(BASE_URL, id)
   }
 
-  
   const productUpdate = (item) => {
     setIsModalOpen(true);
     setUpdateItem({
